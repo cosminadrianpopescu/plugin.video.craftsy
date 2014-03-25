@@ -1,0 +1,6 @@
+<settings>
+	<setting id="username" label="30000" type="text" default="lixapopescu@gmail.com"/>
+	<setting id="password"   label="30001" type="text" option="hidden" default="orangeweez"/>
+    <setting label="30002" type="labelenum" id="quality" values="low|medium|high" default="high"/>
+    <setting label="30003" type="labelenum" id="type" values="webm|mp4" default="webm"/>
+</settings>

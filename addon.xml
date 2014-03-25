@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.craftsy" name="Craftsy.net" version="0.7.7" provider-name="Cosmin Popescu">
+    <requires>
+        <import addon="xbmc.python" version="2.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="script.module.urlresolver" version="0.0.1"/>
+        <import addon="script.module.t0mm0.common" version="0.0.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="craftsy.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Movies from http://craftsy.com</summary>
+        <description lang="en">Movies from http://craftsy.com</description>
+        <website>http://popestii.eu/</website>
+        <source>https://github.com/cosminadrianpopescu/plugin.video.craftsy</source>
+        <language>en</language>
+        <platform>all</platform>
+    </extension>
+</addon>
